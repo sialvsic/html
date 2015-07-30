@@ -1,0 +1,438 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./back.jpg) fixed;
+    background-size: 100% auto;
+}
+
+.header {
+    width: 1100px;
+    height: 300px;
+    background: url(adc1.jpg) no-repeat;
+    background-size: 100% auto;
+    margin: 110px auto 0 auto;
+}
+
+.header h1 {
+    font-size: 32px;
+    color: #e4a82a;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin: 10px 100px 10px 130px;
+    font-family: 'open sans', helvetica, arial, sans-serif;
+    font-weight: 300;
+}
+
+.avatar {
+    height: 125px;
+    width:  125px;
+    border-radius: 100%;
+    background: url(yoona.jpg) no-repeat;
+    background-size: 100% auto;
+    position: relative;
+    top: -85px;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+#menu {
+    width: 1100px;
+    height: 60px;
+    background: #333333;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+
+}
+
+#menu > li {
+    list-style: none;
+    color: #b9d856;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin: auto 120px auto 0;
+}
+
+#menu > li a {
+    color: #b9d856;
+    text-decoration: none;
+
+}
+
+#menu > li a.current {
+    text-decoration: underline;
+}
+
+#menu > li a:hover {
+    text-decoration: underline;
+}
+
+.emptyback {
+    width: 1100px;
+    height: 3800px;
+    background: #ffffff;
+    margin: 0 auto 0 auto;
+}
+
+.whatido {
+    width: 500px;
+    height: 200px;
+    margin: 0 auto auto 320px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    padding: 40px 0 0 0;
+    background: #ffff;
+
+}
+
+.whatido h1 {
+    text-align: center;
+    margin: 0px auto 0 auto;
+    padding: 80px 0 0 0;
+}
+
+.blackline {
+    width: 110px;
+    height: 5px;
+    background: #333333;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.whatido h6 {
+    color: #333333;
+    text-align: center;
+}
+
+#items {
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#items > li {
+    list-style: none;
+    color: #b9d856;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin: auto 120px auto 0;
+}
+
+.eduction {
+    width: 500px;
+    height: 200px;
+    margin: 0 auto auto 320px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    padding: 40px 0 0 0;
+    background: #ffff;
+
+}
+
+
+#experience-content {
+    list-style: none;
+    padding: 0 0 0 0;
+}
+
+#experience-content > li{
+
+}
+
+.experiencelist{
+   width: 1100px;
+}
+
+.experience{
+  background: #ffffff;
+  width: 600px;
+  height: 200px;
+  display: inline-block;
+  margin: 0 10px 0 0px;
+}
+
+.experiencelist img{
+  margin: 0 20px 0 250px;
+  display: inline-block;
+}
+
+
+
+.photo h1{
+    width: 1100px;
+    height: 35px;
+    text-align: center;
+    top: 10px;
+
+}
+
+.title{
+  width: 550px;
+  height: 30px;
+}
+
+.photo .photoword{
+  width:550px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+#photos1{
+   height:200px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 0 0 0 0px;
+}
+
+#photos1 > li{
+  display: inline-block;
+  list-style: none;
+  height: 50px;
+  line-height: 50px;
+  margin: auto 20px auto 0;
+
+}
+
+#photos2{
+   height:200px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 0 0 0 0px;
+}
+
+#photos2 > li{
+  display: inline-block;
+  list-style: none;
+  height: 50px;
+  line-height: 50px;
+  margin: auto 20px auto 0;
+
+}
+
+.getintouch h1{
+    width: 1100px;
+    height: 35px;
+    text-align: center;
+}
+
+#getin{
+   height:400px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 0 0 0 10px;
+}
+
+#getin > li{
+  display: inline-block;
+  list-style: none;
+  height: 160px;
+  width: 160px;
+  line-height: 50px;
+  margin: 0 40px 0 40px;
+  padding: 40px 0 0 0 ;
+}
+
+#getin img{
+  height: 160px;
+  width:  160px;
+  border-radius: 100%;
+  background: url(yoona.jpg) no-repeat;
+  background-size: 100% auto;
+  position: relative;
+  margin: 0 auto;
+  border: 2px solid white;
+}
+
+#getin .in{
+  width: 160px;
+  height: 80px;
+
+}
+
+
+
+.leave h1{
+    width: 1100px;
+    height: 35px;
+    text-align: center;
+}
+
+#leavemessage {
+     height:50px;
+     width: 1100px;
+     margin: 0 auto;
+     padding: 0 0 0 0px;
+
+}
+
+#leavemessage > li {
+    display: inline-block;
+    list-style: none;
+    height: 50px;
+    width: 450px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+}
+
+
+#leavemessage .name{
+  width: 300px;
+  height:60px;
+  text-align: right;
+  margin: 0 0 0 130px;
+  top: 30px;
+}
+
+#leavemessage .namebox{
+  width: 300px;
+  height: auto;
+  text-align: right;
+  zoom: 1;
+  position: relative;
+  overflow: visible;
+  margin: 10px auto;
+  text-align: left;
+}
+
+#leavemessage .namebox input{
+  padding: 10px;
+  margin: 0 auto;
+  float: none;
+  width: 300px;
+  max-width: 100%;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-shadow: none;
+}
+
+
+#email {
+     height:60px;
+     width: 1100px;
+     margin: 0 auto;
+     padding: 0 0 0 0px;
+
+}
+
+#email > li {
+    display: inline-block;
+    list-style: none;
+    height: 50px;
+    width: 450px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+}
+
+
+#email .email{
+  width: 300px;
+  height:60px;
+  text-align: right;
+  margin: 0 0 0 130px;
+  top: 30px;
+}
+
+#email .emailbox{
+  width: 300px;
+  height: auto;
+  text-align: right;
+  zoom: 1;
+  position: relative;
+  overflow: visible;
+  margin: 10px auto;
+  text-align: left;
+}
+
+#email .emailbox input{
+  padding: 10px;
+  margin: 0 auto;
+  float: none;
+  width: 300px;
+  max-width: 100%;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-shadow: none;
+}
+
+
+
+#message {
+     height:100px;
+     width: 1100px;
+     margin: 0 auto;
+     padding: 0 0 0 0px;
+
+}
+
+#message > li {
+    display: inline-block;
+    list-style: none;
+    height: 50px;
+    width: 450px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+}
+
+
+#message .message{
+  width: 300px;
+  height:60px;
+  text-align: right;
+  margin: 0 0 0 130px;
+  top: 30px;
+}
+
+#message .messagebox{
+  width: 300px;
+  height: auto;
+  text-align: right;
+  zoom: 1;
+  position: relative;
+  overflow: visible;
+  margin: 10px auto;
+  text-align: left;
+}
+
+#message .messagebox input{
+  padding: 10px;
+  margin: 10 auto;
+  float: none;
+  width: 300px;
+  height: 60px;
+  max-width: 100%;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-shadow: none;
+}
+
+
+
+.submit input{
+border: none;
+width: 320px;
+height: 40px;
+font-family: 'open sans','helvetica',arial,sans-serif;
+padding: 18px 70px 20px 70px;
+display: inline-block;
+background: #f2c220;
+margin: 10px auto;
+font-weight: bold;
+text-decoration: none;
+font-size: 26px;
+text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+-webkit-border-radius: 1000px;
+-moz-border-radius: 1000px;
+border-radius: 1000px;
+cursor: pointer;
+box-shadow: 0 3px 0 #daae1d;
+color: #fff;
+padding: 12px 10px;
+font-size: 16px;
+}
